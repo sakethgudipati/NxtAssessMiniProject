@@ -1,0 +1,32 @@
+.nav-container {
+  width: 1535px;
+  height: 88px;
+  background-color: #263868;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  background-color: transparent;
+  width: 98px;
+  height: 55.67px;
+  margin-top: 16.33px;
+  margin-left: 24px;
+  mix-blend-mode: multiply;
+  color: #f1f5f9;
+}
+
+.logout-button {
+  width: 86px;
+  height: 40px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 8px;
+  border: 2px solid #f1f5f9;
+  gap: 8px;
+  background-color: transparent;
+  color: #f1f5f9;
+  margin-top: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}

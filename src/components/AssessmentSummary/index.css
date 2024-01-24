@@ -1,0 +1,122 @@
+.answered-unanswered-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.answered {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #496387;
+  margin-right: 10px;
+}
+
+.answered-span {
+  color: #ffffff;
+  background-color: #7c599f;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 5px;
+}
+
+.unanswered {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #496387;
+  margin-right: 10px;
+}
+
+.unanswered-span {
+  background-color: transparent;
+  color: #64748b;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #cbd5e1;
+}
+
+.question-number-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-number-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #164687;
+}
+
+.question-number-card {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.question-number {
+  width: 32px;
+  height: 32px;
+  top: 160px;
+  left: 16px;
+  padding: 6px, 0px, 6px, 0px;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.selected {
+  background-color: #60a5fa;
+}
+
+.answered-Selected {
+  background-color: #7c599f26;
+  border: 1px solid #7c599f;
+}
+
+.submit-btn {
+  position: absolute;
+  bottom: 0;
+  width: 384px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #164687;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #164687;
+  background-color: transparent;
+}
+
+.summary-horizontal-line {
+  width: 416px;
+  top: 90px;
+  border: 1px solid #e2e8f0;
+}
